@@ -1,2 +1,1 @@
-# data-mgmt-guide
-a guide to help researchers and students at UMBS with data management for their own projects
+# a guide to help UMBS researchers and students with data management
