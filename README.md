@@ -2,9 +2,9 @@
 a guide for UMBS researchers and students on data management
 
 ### Why manage data? 
-your research is most credible when backed by data that is reproducable and reusable
-you're saving science money and resources by making your data accessible to others (and sometimes your grant will require this anyway!)
-If you give your data to a colleague who has not been involved with your project, will they be able to make sense of it? Will they be able to use it effectively and properly? 
+- your research is most credible when backed by data that is reproducable and reusable
+- you're saving science money and resources by making your data accessible to others (and sometimes your grant will require this anyway!)
+- If you give your data to a colleague who has not been involved with your project, will they be able to make sense of it? Will they be able to use it effectively and properly? 
 https://www.youtube.com/watch?v=N2zK3sAtr-4
 
 ## How to manage your data: create a data management plan (DMP)
@@ -36,10 +36,10 @@ where to share/publish data:
 - at the very least have a shared drive/folder/repository for long-term storage (a USB is not good enough! its 2021 and there's no longer an excuse for having tech with a single point of failure)
 
 who to contact for help:
-jtallant@umich.edu
-apawlik@umich.edu
-Mlibrary 
-EDI people?
+- jtallant@umich.edu
+- apawlik@umich.edu
+- Mlibrary 
+- EDI people?
 
 other resources:
 - more specific topics in data mgmt education https://old.dataone.org/education-modules
