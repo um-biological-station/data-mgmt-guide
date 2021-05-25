@@ -1,6 +1,8 @@
 # Data Management at the University of Michigan Biological Station
 a guide for UMBS researchers and students on data management
 
+*how much of this can be incorporated into an R notebook?*
+
 ### Why manage data? 
 - your research is most credible when backed by data that is reproducable and reusable
 - you're saving science money and resources by making your data accessible to others (and sometimes your grant will require this anyway!)
