@@ -33,6 +33,8 @@ compiling:
 - which files are important
 - finalize metadata 
   - EZeml? eml assembly line? depends on R proficiency (ecological data specific)
+  - https://ezeml.edirepository.org/eml/
+  - https://ediorg.github.io/EMLassemblyline/articles/overview.html
 
 where to share/publish data:
 - Mfield (not Deepblue)
