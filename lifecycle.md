@@ -1,6 +1,11 @@
 # The Data Life Cycle
-This process starts as soon as you begin planning the other parts of your project, often as early as your research proposal. 
-The budget prepared for your research project should include estimated costs for data management.
+This process starts as soon as you begin planning the other parts of your project, often as early as your research proposal. It occurs in 5 phases which will likely happen somewhat simultaneously or more than once.
+1. Plan
+2. Collect
+3. Assure
+4. Describe 
+5. Preserve
+As a scientist, you will likely analyze your published data. These steps make sure that you are not the only one who can do so.
 
 
 ## Plan: create a data management plan (DMP)
@@ -13,7 +18,7 @@ Collect:
 - What sensors instruments will be used? 
 - What cyberinfrastructure will be required to support your research?
 - Does your institution have a DMP template?
-- What types of personnel will be required to carry out your data management plan? 
+- What types of personnel will be required to carry out your data management plan? The budget prepared for your research project should include estimated costs for data management.
 - What computational resources will be needed? How much data are you planning to generate?
 - How can you collect data so that it is already "clean"? (see [tidydata](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) standards)  
 Assure:
