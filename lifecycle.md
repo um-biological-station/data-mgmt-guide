@@ -2,7 +2,7 @@
 This process starts as soon as you begin planning the other parts of your project, often as early as your research proposal. It occurs in 5 phases which will likely happen somewhat simultaneously or more than once.
 1. [Plan](#plan-create-a-data-management-plan-dmp)
 2. [Collect](#collect-make-observations-and-gather-data)
-3. [Assure](#assure-quality-assurance-quality-control-qa-qc)
+3. [Assure](#assure-quality-assurance--quality-control-qaqc)
 4. [Describe](#describe-gather-metadata)
 5. [Preserve](#preserve-share-your-data)   
 
