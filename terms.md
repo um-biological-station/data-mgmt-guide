@@ -1,6 +1,6 @@
 # Data: some basic terminology
 
-Data is almost always best described in **data tables**:
+Data is best described in **data tables**:
 
 
 | Observation Number | Date | Squirrel Count |  
@@ -23,5 +23,5 @@ Each **data field** must have a consistent **data type**, such as:
 Each **observation** is a set of **values**, one for each **data field**.
 
 
-
+-----------
 [<--  Back](README.md)
