@@ -11,9 +11,8 @@ Data is best described in **data tables**:
 
 
 The top row of the table contains the **data fields** or **variables**.  
-There is a column for each **data field** and a row for each **observation**.
-
-Each **data field** must have a consistent **data type**, such as: 
+There is a column for each **data field** and a row for each **observation**.  
+Each **data field** has a single **data type**, such as: 
 - numerical/decimal
 - text/string
 - categorical
