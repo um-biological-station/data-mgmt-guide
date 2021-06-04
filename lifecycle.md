@@ -65,6 +65,7 @@ Determine what quality standards you will hold your data to (see options below).
 
 - Describe any conditions during collection that might affect the quality of the data. 
 - Document all quality checks and cleaning steps, either with code (R notebook, Python script, etc.) or in a plain text file. Either way, your steps should be unambiguous to someone familiar with your dataset.
+- Make sure your data table has no empty cells by defining standard missing values.
 - Identify values that are estimated, double-check data that are entered by hand (preferably entered by more than one person), and use quality level flags (see here) to indicate potential problems. Indicate values that are potentially out of range with flags, as well.
 - Check the format of the data to be sure it is consistent across the data set. 
 - Perform statistical and graphical summaries (e.g. max/min, average, range) to check for questionable or impossible values and to identify outliers. 
