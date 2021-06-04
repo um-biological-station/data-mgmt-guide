@@ -10,7 +10,7 @@ Data is best described in **data tables**:
 | 3 | 03 Jul 2019 | 5 |  
 
 
-The top row of the table contains the **data fields** or **variables**.
+The top row of the table contains the **data fields** or **variables**.  
 There is a column for each **data field** and a row for each **observation**.
 
 Each **data field** must have a consistent **data type**, such as: 
