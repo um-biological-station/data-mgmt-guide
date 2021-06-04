@@ -9,7 +9,8 @@ This process starts as soon as you begin planning the other parts of your projec
 As a scientist, you will likely analyze your published data. These steps make sure that you are not the only one who can do so.
 
 
-## Plan: create a data management plan (DMP)
+## Plan 
+### create a data management plan (DMP)
 This could be a formal proposal or just a guideline for you and your team. Essentially, you are outlining your plans for the next 4 steps of the cycle. Review those steps first before creating a DMP. Regularly update your DMP throughout the process - it will provide most of your metadata.  
 
 Collect:
@@ -42,8 +43,7 @@ Preserve:
 - What are the target dates for release to these groups? 
 - How will the data be released? 
 - Do you need to choose a repository to share it on? Consider what type of data you will generate and which community will make use of the data.
-
--> *Check with the repository about requirements for submission, including required data documentation, metadata standards, and any possible restrictions on use(e.g. intellectual property rights). 
+* Check with the repository about requirements for submission, including required data documentation, metadata standards, and any possible restrictions on use(e.g. intellectual property rights). 
 Repository specifications will help guide decisions about the remainder of the practices below.*
 
 More resources:
@@ -51,11 +51,13 @@ More resources:
 - [A more formal DMP outline](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/framework.html)
 
 
-## Collect: make observations and gather data
+## Collect
+### make observations and gather data
 data should be in a digital form
 
 
-## Assure: quality assurance / quality control (QA/QC)
+## Assure
+### quality assurance / quality control (QA/QC)
 - the quality of the data are assured through checks and inspections
 - check precision and data field limitations
 - is your data clean? it should be if you planned
@@ -65,7 +67,8 @@ data should be in a digital form
    - if you prefer spreadhseets over R: Data Organization in Spreadsheets for Ecologists https://datacarpentry.org/spreadsheet-ecology-lesson/
 
 
-## Describe: gather metadata
+## Describe
+### gather metadata
 - data are accurately and thoroughly described using the appropriate metadata standards
 - EDI metadata worksheet but maybe clean up and simplify it a bit
 - this should be collected throughout (use DMP)
@@ -75,7 +78,8 @@ data should be in a digital form
   - https://ediorg.github.io/EMLassemblyline/articles/overview.html
 
 
-## Preserve: share your data
+## Preserve
+### share your data
 - share with your team and if its ok, submitted to an appropriate long-term archive (i.e. data center)
 - where to share/publish data:
   - Mfield (not Deepblue)
