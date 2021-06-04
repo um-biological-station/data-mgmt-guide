@@ -26,5 +26,5 @@ Created by Alex Pawlik (apawlik@umich.edu) and Jason Tallant (jtallant@umich.edu
 - jtallant@umich.edu and apawlik@umich.edu
 
 
-*how much of this can be incorporated into an R notebook?*
+<!-- how much of this can be incorporated into an R notebook? -->
 
