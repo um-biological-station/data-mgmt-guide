@@ -1,4 +1,4 @@
-### The University of Michigan Biological Station
+#### The University of Michigan Biological Station
 # Data Management for Natural Scientists
 #### a guide to keep UMBS researchers and students organized throughout the data lifecycle
 Created by Alex Pawlik (apawlik@umich.edu) and Jason Tallant (jtallant@umich.edu)
