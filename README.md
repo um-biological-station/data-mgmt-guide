@@ -9,7 +9,7 @@ Created by Alex Pawlik (apawlik@umich.edu) and Jason Tallant (jtallant@umich.edu
 - You save yourself and other scientists money and resources by keeping your data organized and accessible.
 - Your professor or sponsor will potentially require it.
 - [The importance of data management in a 4 minute video](https://www.youtube.com/watch?v=N2zK3sAtr-4)
--> *If you give your data to a colleague outside of your project, will they be able to make sense of it? Will they be able to use it effectively and properly?*
+- *If you give your data to a colleague outside of your project, will they be able to make sense of it? Will they be able to use it effectively and properly?*
 
 
 ### How to manage your data:
