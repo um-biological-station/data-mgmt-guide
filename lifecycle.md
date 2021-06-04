@@ -4,12 +4,14 @@ This process starts as soon as you begin planning the other parts of your projec
 2. Collect
 3. Assure
 4. Describe 
-5. Preserve
+5. Preserve  
+
 As a scientist, you will likely analyze your published data. These steps make sure that you are not the only one who can do so.
 
 
 ## Plan: create a data management plan (DMP)
 This could be a formal proposal or just a guideline for you and your team. Essentially, you are outlining your plans for the next 4 steps of the cycle. Review those steps first before creating a DMP. Regularly update your DMP throughout the process - it will provide most of your metadata.  
+
 Collect:
 - Based on the hypotheses and sampling plan, what data will be generated? Choose which data fields you will collect (these will be your table's column names).  
 - Decide how your data table(s) will be structured so that they best suit your collection process. 
@@ -21,13 +23,16 @@ Collect:
 - What types of personnel will be required to carry out your data management plan? The budget prepared for your research project should include estimated costs for data management.
 - What computational resources will be needed? How much data are you planning to generate?
 - How can you collect data so that it is already "clean"? (see [tidydata](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) standards)  
+
 Assure:
 - How can you quality check your data?
 - Is your data table structured in a way that is obvious to others?  
+
 Describe:
 - How will you produce a metadata record? Using what metadata standard? Using what tool? 
 - Will you create a record at the project's inception and update it as you progress with your research? 
 - Where will you deposit the metadata? Consider your community's standards when deciding on the metadata standard and data center.  
+
 Preserve:
 - Who is in charge of managing the data? 
 - How will version control be handled? How will data be backed up, and how often?
@@ -37,6 +42,7 @@ Preserve:
 - What are the target dates for release to these groups? 
 - How will the data be released? 
 - Do you need to choose a repository to share it on? Consider what type of data you will generate and which community will make use of the data.
+
 -> *Check with the repository about requirements for submission, including required data documentation, metadata standards, and any possible restrictions on use(e.g. intellectual property rights). 
 Repository specifications will help guide decisions about the remainder of the practices below.*
 
