@@ -1,6 +1,6 @@
 # The Data Life Cycle
 This process starts as soon as you begin planning the other parts of your project, often as early as your research proposal. It occurs in 5 phases which will likely happen somewhat simultaneously or more than once.
-1. Plan
+1. [Plan](#plan-create-a-data-management-plan-dmp)
 2. Collect
 3. Assure
 4. Describe 
