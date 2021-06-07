@@ -24,7 +24,7 @@ First, [some basic data terminology](terms.md).
 - [Managing and Sharing Data (UK Data Archive)](https://ukdataservice.ac.uk/media/622417/managingsharing.pdf)
 - [Mlibrary Data Management Plan Resources](https://guides.lib.umich.edu/engin-dmp)
 - Sample Data Repository: [UMBS Weather Data](https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=549)
-- [Environmental Data Initiative](https://environmentaldatainitiative.org)
+- [Environmental Data Initiative](https://environmentaldatainitiative.org) (data repository and curation service)
 - jtallant@umich.edu and apawlik@umich.edu
 
 
