@@ -22,7 +22,7 @@ First, [some basic data terminology](terms.md).
 - Source: [DataOne Primer on Data Management](https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
 - [DataOne Education Modules](https://old.dataone.org/education-modules)
 - [Managing and Sharing Data (UK Data Archive)](https://ukdataservice.ac.uk/media/622417/managingsharing.pdf)
-- [Mlibrary DMP Resources](https://guides.lib.umich.edu/engin-dmp)
+- [Mlibrary Data Management Plan Resources](https://guides.lib.umich.edu/engin-dmp)
 - Sample Data Repository: [UMBS Weather Data](https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=549)
 - [Environmental Data Initiative](https://environmentaldatainitiative.org)
 - jtallant@umich.edu and apawlik@umich.edu
