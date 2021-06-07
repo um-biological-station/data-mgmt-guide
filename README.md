@@ -1,5 +1,5 @@
-### Data Management for Natural Scientists
-##### a guide to keep UMBS researchers and students organized throughout the data lifecycle
+# Data Management for Natural Scientists
+### a guide to keep UMBS researchers and students organized throughout the data lifecycle
 Created by Alex Pawlik (apawlik@umich.edu) and Jason Tallant (jtallant@umich.edu)
    
 -----------
