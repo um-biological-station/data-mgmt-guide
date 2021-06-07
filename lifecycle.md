@@ -1,13 +1,13 @@
 # The Data Life Cycle
 This process starts as soon as you begin planning the other parts of your project, often as early as your research proposal. It occurs in 5 phases which will likely happen somewhat simultaneously or more than once.
-1. [Plan](#plan-create-a-data-management-plan-dmp)
-2. [Collect](#collect-make-observations-and-gather-data)
-3. [Assure](#assure-quality-assurance--quality-control-qaqc)
-4. [Describe](#describe-gather-metadata)
-5. [Preserve](#preserve-share-your-data)   
+1. [PLAN](#plan-create-a-data-management-plan-dmp)
+2. [COLLECT](#collect-make-observations-and-gather-data)
+3. [ASSURE](#assure-quality-assurance--quality-control-qaqc)
+4. [DESCRIBE](#describe-gather-metadata)
+5. [PRESERVE](#preserve-share-your-data)   
 
-As a scientist, you will likely analyze your published data. These steps make sure that you are not the only one who can do so.
-
+As a scientist, you will likely analyze your published data. These steps make sure that you are not the only one who can do so.  
+*Source: DataONE (Data Observation Network for Earth) [Data Management Primer](https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)*
 
 ## PLAN: create a data management plan (DMP)
 This could be a formal proposal or just a guideline for you and your team. Essentially, you are outlining your plans for the next 4 steps of the cycle. Review those steps first before creating a DMP. Regularly update your DMP throughout the process - it will provide most of your metadata.  
@@ -75,7 +75,7 @@ Determine what quality standards you will hold your data to (see options below).
 - *Additional problems with the data may also be identified during analysis and interpretation of the data.*
 
 More resources:
-- [DataOne Quality Standards](https://old.dataone.org/best-practices/ensure-basic-quality-control)
+- [DataONE Quality Standards](https://old.dataone.org/best-practices/ensure-basic-quality-control)
 - [tidydata Guidelines](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
 - Data Carpentry's [Data Analysis and Visualization in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/index.html) (no R experience)
 - Enviornmental Data Initiative's [Data Cleaning with R](https://cdn.rawgit.com/EDIorg/tutorials/master/data_cleaning/R_instructions_exercise.html) (assumes familiarity with R)
@@ -83,16 +83,16 @@ More resources:
 
 
 ## DESCRIBE: gather metadata
-<!-- TODO -->
-repeatability
-- data are accurately and thoroughly described using the appropriate metadata standards
-<!-- EDI metadata worksheet but maybe clean up and simplify it a bit -->
-- should be collected throughout (use DMP)
+<!-- TODO - EML worksheet and simplify it -->
+Metadata - data about your data - is essential for future comprehension and repeatability of your work. 
+- Utilize the metadata format corresponding to the field that your research best fits into. This helps make your data discoverable.
+- Collect meatdata throughout the entire data lifecycle. A lot of it can be extracted from your DMP 
 - compile important files
   - EZeml? eml assembly line? depends on R proficiency (ecological data specific)
   - https://ezeml.edirepository.org/eml/
   - https://ediorg.github.io/EMLassemblyline/articles/overview.html
-
+ 
+- DataONE [member repositories](https://www.dataone.org/network/#list-of-member-repositories) - a list of 40+ reputable environmental data repositories
 
 ## PRESERVE: share your data
 <!-- TODO -->
@@ -106,8 +106,6 @@ Your data isn't very useful if only you can see it. Use technology to make your 
   - Environmental Data Initiative https://environmentaldatainitiative.org/submit-your-data/
 - at the very least have a shared drive/folder/repository for long-term storage (a USB is not good enough! its post-pandemic so there's no longer an excuse for having tech with a single point of failure)
 
-
-Source: [DataOne Data Management Primer](https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
 
 
 -----------
