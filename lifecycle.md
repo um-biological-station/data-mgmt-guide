@@ -90,14 +90,13 @@ Metadata - data about your data - is essential for future comprehension and repe
 - Compile and keep a list of important files: raw data, clean data, data cleaning scripts/instructions, methods documents, images of field notes, etc.
 - Often, [EML (Ecological Metadata Language)](https://eml.ecoinformatics.org/) is the go-to format for environmental metadata.
 - The metadata you need to collect may depend on the format you choose, but the essentials are still the same.
-  - EDI's metadata template, great for printing and taking to the field <!-- TODO EML worksheet and simplify it or just list of important metadata -->
+  - EDI's [metadata template](https://github.com/EDIorg/MetadataTemplates) - great for printing and taking to the field 
   - DataONE's [list of important metadata and best practices](https://dataoneorg.github.io/Education/bp_step/describe/) 
   - EDI's [best practices for EML](https://environmentaldatainitiative.org/five-phases-of-data-publishing/phase-3/metadata-best-practices/)
 - Find a compiling or validation tool for your metadata file. It's the easiest way to guarantee that your metadata file meets the standards you chose.
   - EDI's [ezEML](https://ezeml.edirepository.org/eml/) - compiling EML without R
   - EDI's [EML assemblyline](https://ediorg.github.io/EMLassemblyline/articles/overview.html) - R package for compiling EML
 
- <!-- TODO give a sample directory structure? -->
 
 ## PRESERVE: share your data
 Your data isn't very useful if only you can see it. Use technology to make your dataset accessible, reusable, and repeatable. After metadata is compiled and you don't plan on making any more changes to your files, it's time to preserve your data.
