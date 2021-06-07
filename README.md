@@ -2,12 +2,6 @@
 a guide to keep UMBS researchers and students organized throughout the data lifecycle
 
    
-### Quick links:
-- [Basic data terminology](terms.md)
-- EML [metadata template](https://github.com/EDIorg/MetadataTemplates)
-- DataONE [Primer on Data Management](https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
-
------------
 ### Why to manage your data:
 - Your research is most credible when backed by data that is reproducable and reusable.
 - You save yourself and other scientists money and resources by keeping your data organized and accessible.
@@ -33,8 +27,13 @@ a guide to keep UMBS researchers and students organized throughout the data life
    - Sample Data Repository: [UMBS Weather Data](https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=549)
 
 
-
+-----------
 <!-- how much of this can be incorporated into an R notebook? -->
 <!-- give a sample directory structure? -->
+
+### Quick links:
+- [Basic data terminology](terms.md)
+- EML [metadata template](https://github.com/EDIorg/MetadataTemplates)
+- DataONE [Primer on Data Management](https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
 
 
