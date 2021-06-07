@@ -7,7 +7,6 @@ This process starts as soon as you begin planning the other parts of your projec
 5. [PRESERVE](#preserve-share-your-data)   
 
 As a scientist, you will likely analyze your published data. These steps make sure that you are not the only one who can do so.  
-*Source: DataONE (Data Observation Network for Earth) [Data Management Primer](https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)*
 
 ## PLAN: create a data management plan (DMP)
 This could be a formal proposal or just a guideline for you and your team. Essentially, you are outlining your plans for the next 4 steps of the cycle. Review those steps first before creating a DMP. Regularly update your DMP throughout the process - it will provide most of your metadata.  
@@ -107,6 +106,9 @@ Your data isn't very useful if only you can see it. Use technology to make your 
 - at the very least have a shared drive/folder/repository for long-term storage (a USB is not good enough! its post-pandemic so there's no longer an excuse for having tech with a single point of failure)
 
 
-
 -----------
+
+*Source: DataONE (Data Observation Network for Earth) [Data Management Primer](https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)*
+
+
 [<--  Back](README.md)
