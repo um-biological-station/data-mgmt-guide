@@ -1,8 +1,7 @@
 # Data Management for Natural Scientists
-### a guide to keep UMBS researchers and students organized throughout the data lifecycle
-Created by Alex Pawlik (apawlik@umich.edu) and Jason Tallant (jtallant@umich.edu)
+a guide to keep UMBS researchers and students organized throughout the data lifecycle
+
    
------------
 ### Quick links:
 - [Basic data terminology](terms.md)
 - EML [metadata template](https://github.com/EDIorg/MetadataTemplates)
