@@ -88,7 +88,6 @@ Metadata - data about your data - is essential for future comprehension and repe
   - Some can be extracted from your DMP, assuming you kept it updated. 
   - Ideally, you'll have mostly complete metadata after filling out a metadata template during data collection.
 - Compile and keep a list of important files: raw data, clean data, data cleaning scripts/instructions, methods documents, images of field notes, etc.
-<!-- TODO give a sample directory structure? -->
 - Often, [EML (Ecological Metadata Language)](https://eml.ecoinformatics.org/) is the go-to format for environmental metadata.
 - The metadata you need to collect may depend on the format you choose, but the essentials are still the same.
   - EDI's metadata template, great for printing and taking to the field <!-- TODO EML worksheet and simplify it or just list of important metadata -->
@@ -97,20 +96,28 @@ Metadata - data about your data - is essential for future comprehension and repe
 - Find a compiling or validation tool for your metadata file. It's the easiest way to guarantee that your metadata file meets the standards you chose.
   - EDI's [ezEML](https://ezeml.edirepository.org/eml/) - compiling EML without R
   - EDI's [EML assemblyline](https://ediorg.github.io/EMLassemblyline/articles/overview.html) - R package for compiling EML
- 
+
+ <!-- TODO give a sample directory structure? -->
 
 ## PRESERVE: share your data
-<!-- TODO -->
-Your data isn't very useful if only you can see it. Use technology to make your dataset accessible, reusable, and repeatable. 
-(In fact, your work may provide data that the scientific community desperately needs in the future. Imagine if virologists hadn't saved their 2019 data on coronaviruses...)
+Your data isn't very useful if only you can see it. Use technology to make your dataset accessible, reusable, and repeatable. After metadata is compiled and you don't plan on making any more changes to your files, it's time to preserve your data.
+*Your work may provide data that the scientific community desperately needs in the future. Imagine if virologists hadn't saved their 2019 data on coronaviruses...*
 
-- share with your team and if its ok, submitted to an appropriate long-term archive (i.e. data center)
+- Consider legal and policy restrictions that might affect how your data can be distributed.
+  - Check your institution's policies on privacy and confidentiality.
+  - Data are not copyrightable. Ensure that you have the appropriate permissions when using data that has multiple owners or copyright layers. Information documenting the context of data collection may be under copyright.
+  - Data is able to be licensed. The manner in which you license your data can determine its ability to be consumed by other scholars. If your data fall into any of the following categories, there are additional considerations regarding sharing: rare, threatened or endangered species; cultural items returned to their
+country of origin; Native American and Native Hawaiian human remains and objects; any research involving human subjects. 
+  - If you use data from other sources, you should review your rights to use the data and be sure you have the appropriate licenses and permissions.
 - Use file formats that are easy to open and accessible to all (ie. ".txt" or ".csv", not ".docx" or ".xlsx").
-- where to share/publish data:
-  - Mfield (not Deepblue)
+- Identify data with long-term value. 
+  - It's not necessary to archive all of the data products generated from your research. 
+  - Consider the size of your files, which data will be most useful for future data users (typically raw data), and which data versions would be most difficult to reproduce.
+- Choose keywords using a controlled vocabulary (CV) to make your data easier to find.
+- Share data with your team. Create at least one backup on Google Drive, OneCloud, etc. 
+- If appropriate, also submit to a long-term archive (i.e. data repository). They provide the tools that helps others find, use, and cite your data.
   - DataONE [member repositories](https://www.dataone.org/network/#list-of-member-repositories) - a list of 40+ reputable environmental data repositories
-  - Environmental Data Initiative https://environmentaldatainitiative.org/submit-your-data/
-- at the very least have a shared drive/folder/repository for long-term storage (a USB is not good enough! its post-pandemic so there's no longer an excuse for having tech with a single point of failure)
+  - EDI's [repository](https://environmentaldatainitiative.org/submit-your-data/) - especially good if you want 1-on-1 assistance with metadata compilation and/or data publishing
 
 
 -----------
