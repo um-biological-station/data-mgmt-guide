@@ -17,7 +17,7 @@ a guide to keep UMBS researchers and students organized throughout the data life
 ### Other resources:
 - Groups and people:
    - [DataONE (Data Observation Network for Earth)](https://www.dataone.org/)
-   - [Environmental Data Initiative](https://environmentaldatainitiative.org)
+   - [EDI (Environmental Data Initiative)](https://environmentaldatainitiative.org)
    - jtallant@umich.edu and apawlik@umich.edu
 - Learning:
    - DataONE [Primer on Data Management](https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
