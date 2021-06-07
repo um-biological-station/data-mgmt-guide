@@ -82,16 +82,22 @@ More resources:
 
 
 ## DESCRIBE: gather metadata
-<!-- TODO - EML worksheet and simplify it -->
-Metadata - data about your data - is essential for future comprehension and repeatability of your work. 
-- Utilize the metadata format corresponding to the field that your research best fits into. This helps make your data discoverable.
-- Collect meatdata throughout the entire data lifecycle. A lot of it can be extracted from your DMP 
-- compile important files
-  - EZeml? eml assembly line? depends on R proficiency (ecological data specific)
-  - https://ezeml.edirepository.org/eml/
-  - https://ediorg.github.io/EMLassemblyline/articles/overview.html
+Metadata - data about your data - is essential for future comprehension and repeatability of your work. Utilize the metadata format corresponding to the field that your research best fits into. Note that almost all formats/tools for enviornmental data result in a .XML (extensible markup language) file. This is standard - the .XML file should be considered with as much importance as your data table files.
+
+- Collect meatdata throughout the entire data lifecycle. 
+  - Some can be extracted from your DMP, assuming you kept it updated. 
+  - Ideally, you'll have mostly complete metadata after filling out a metadata template during data collection.
+- Compile and keep a list of important files: raw data, clean data, data cleaning scripts/instructions, methods documents, images of field notes, etc.
+<!-- TODO give a sample directory structure? -->
+- Often, [EML (Ecological Metadata Language)](https://eml.ecoinformatics.org/) is the go-to format for environmental metadata.
+- The metadata you need to collect may depend on the format you choose, but the essentials are still the same.
+  - EDI's metadata template, great for printing and taking to the field <!-- TODO EML worksheet and simplify it or just list of important metadata -->
+  - DataONE's [list of important metadata and best practices](https://dataoneorg.github.io/Education/bp_step/describe/) 
+  - EDI's [best practices for EML](https://environmentaldatainitiative.org/five-phases-of-data-publishing/phase-3/metadata-best-practices/)
+- Find a compiling or validation tool for your metadata file. It's the easiest way to guarantee that your metadata file meets the standards you chose.
+  - EDI's [ezEML](https://ezeml.edirepository.org/eml/) - compiling EML without R
+  - EDI's [EML assemblyline](https://ediorg.github.io/EMLassemblyline/articles/overview.html) - R package for compiling EML
  
-- DataONE [member repositories](https://www.dataone.org/network/#list-of-member-repositories) - a list of 40+ reputable environmental data repositories
 
 ## PRESERVE: share your data
 <!-- TODO -->
@@ -102,6 +108,7 @@ Your data isn't very useful if only you can see it. Use technology to make your 
 - Use file formats that are easy to open and accessible to all (ie. ".txt" or ".csv", not ".docx" or ".xlsx").
 - where to share/publish data:
   - Mfield (not Deepblue)
+  - DataONE [member repositories](https://www.dataone.org/network/#list-of-member-repositories) - a list of 40+ reputable environmental data repositories
   - Environmental Data Initiative https://environmentaldatainitiative.org/submit-your-data/
 - at the very least have a shared drive/folder/repository for long-term storage (a USB is not good enough! its post-pandemic so there's no longer an excuse for having tech with a single point of failure)
 
