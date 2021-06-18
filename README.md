@@ -6,12 +6,12 @@ a guide to keep UMBS researchers and students organized throughout the data life
 - Your research is most credible when backed by data that is reproducable and reusable.
 - You save yourself and other scientists money and resources by keeping your data organized and accessible.
 - Your professor or sponsor will potentially require it.
-- [The importance of data management in a 4 minute video.](https://www.youtube.com/watch?v=N2zK3sAtr-4)
+- [The importance of data management in a poorly animated 4 minute video.](https://www.youtube.com/watch?v=N2zK3sAtr-4)
 - *If you give your data to a colleague outside of your project, will they be able to make sense of it? Will they be able to use it effectively and properly?*
 
 
 ### How to manage your data:
-- [The Data Life Cycle](lifecycle.md)
+- [The data life cycle](lifecycle.md)
 - [Keep your project files organized](folders.md)
      
 
