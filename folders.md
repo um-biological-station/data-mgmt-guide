@@ -12,3 +12,7 @@ Here's an overview of the provided folders:
       - any files that give guidance for your team or require quick/frequent access can live right in your home folder (i.e. team README, team contact info, quick links)
 
 The goal is for your file organization to speak for itself. Choose a folder layout that is clear and appropriate for your project. Consult your team, a mentor, or a colleague if you're unsure.
+
+-----------
+
+[<--  Back](README.md)
