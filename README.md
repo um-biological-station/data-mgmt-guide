@@ -12,7 +12,8 @@ a guide to keep UMBS researchers and students organized throughout the data life
 
 ### How to manage your data:
 - [The Data Life Cycle](lifecycle.md)
-
+- [Keep your project files organized](folders.md)
+     
 
 ### Other resources:
 - Groups and people:
