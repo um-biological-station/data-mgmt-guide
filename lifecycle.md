@@ -18,7 +18,7 @@ This could be a formal proposal or just a guideline for you and your team. Essen
   - Provide descriptive documentation of collection rationale and methods, analysis methods, and any relevant contextual information. 
   - What sensors instruments will be used? 
   - What cyberinfrastructure will be required to support your research?
-  - Does your institution have a DMP template?
+  - Does your institution or discipline have a DMP template? (see [DMPTool](https://dmptool.org/))
   - What types of personnel will be required to carry out your data management plan? The budget prepared for your research project should include estimated costs for data management.
   - What computational resources will be needed? How much data are you planning to generate?
   - How can you collect data so that it is already "clean"? (see [tidydata](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) standards)  
@@ -43,6 +43,7 @@ This could be a formal proposal or just a guideline for you and your team. Essen
 More resources:
 - [Creating a DMP](https://old.dataone.org/sites/all/documents/education-modules/handouts/L03_DataManagement_Handout.pdf)
 - [A more formal DMP outline](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/framework.html)
+- [DMPTool](https://dmptool.org/)
 
 
 ## COLLECT: make observations and gather data
@@ -112,7 +113,7 @@ country of origin; Native American and Native Hawaiian human remains and objects
 - Identify data with long-term value. 
   - It's not necessary to archive all of the data products generated from your research. 
   - Consider the size of your files, which data will be most useful for future data users (typically raw data), and which data versions would be most difficult to reproduce.
-- Choose keywords using a controlled vocabulary (CV) to make your data easier to find.
+- Choose keywords using a controlled vocabulary (CV) to make your data easier to find.  example: [LTER Controlled Vocabulary](https://vocab.lternet.edu/vocab/vocab/index.php)
 - Share data with your team. Create at least one backup on Google Drive, OneCloud, etc. 
 - If appropriate, also submit to a long-term archive (i.e. data repository). They provide the tools that helps others find, use, and cite your data.
   - DataONE [member repositories](https://www.dataone.org/network/#list-of-member-repositories) - a list of 40+ reputable environmental data repositories
