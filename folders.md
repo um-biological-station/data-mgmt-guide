@@ -3,7 +3,7 @@
 Included in this repository are a set of empty folders that can be used to structure your master project folder. You can download them or just use them as a guide to organize all the files involved in your project. Folders contain empty placeholder files with common file extensions for that folder. *Keep in mind that the descriptions of folder content below are just suggestions. The files required for your project are dependent on your organization, funding, field of study, personal preference, etc.*
 
 Here's an overview of the provided folders:
-   - **main**: contains *all* of your project files (rename with a short but useful name for your project)
+   - **home**: contains *all* of your project files (rename with a short but useful name for your project)
       - **docs**: project planning, project proposal, team and grant info, versioning info
       - **metadata**: metadata template, files required for your chosen metadata format, experimental methods, descriptive notes on how data was cleaned (this can also be achieved with code)
       - **code**: code used for cleaning data (R notebooks are a good choice), code used to general models, code used to compile a metadata file
