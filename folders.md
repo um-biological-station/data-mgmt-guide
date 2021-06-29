@@ -1,6 +1,6 @@
 # Keeping your files organized
 
-Included in this repository are a set of empty folders that can be used to structure your master project folder. You can download them or just use them as a guide to organize all the files involved in your project. *Keep in mind that the descriptions of folder content below are just suggestions. The files required for your project are dependent on your organization, funding, field of study, personal preference, etc.*
+Included in this repository are a [set of empty folders](https://github.com/um-biological-station/data-mgmt-guide) that can be used to structure your master project folder. You can download them or just use them as a guide to organize all the files involved in your project. *Keep in mind that the descriptions of folder content below are just suggestions. The files required for your project are dependent on your organization, funding, field of study, personal preference, etc.*
 
 Here's an overview of the provided folders:
    - **home**: contains *all* of your project files (rename with a short but useful name for your project)
