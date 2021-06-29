@@ -10,6 +10,7 @@ Here's an overview of the provided folders:
       - **output**: final dataset, final files for publishing/sharing, README for data users, final/compiled metadata file
       - **raw**: raw data collected in the field, pictures of field notes or drawings, files containing data as it is initially recorded (usually Excel or plain text)
       - any files that give guidance for your team or require quick/frequent access can live right in your home folder (i.e. team README, team contact info, quick links)
+*These descriptions can also be found in info.txt files located in the sample folders provided.*   
 
 The goal is for your file organization to speak for itself. Choose a folder layout that is clear and appropriate for your project. Consult your team, a mentor, or a colleague if you're unsure.
 
