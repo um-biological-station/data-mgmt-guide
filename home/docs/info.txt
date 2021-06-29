@@ -1,0 +1,5 @@
+Use this folder for:
+- project planning files 
+- project proposal
+- team and grant info
+- versioning info

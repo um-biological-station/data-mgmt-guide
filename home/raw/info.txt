@@ -1,0 +1,4 @@
+Use this folder for:
+- raw data collected in the field
+- pictures of field notes or drawings
+- files containing data as it is initially recorded (usually Excel or plain text)

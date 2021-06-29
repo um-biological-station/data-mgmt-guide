@@ -1,0 +1,141 @@
+---
+title: "Data cleaning for ________"
+author: your name here
+---
+
+
+Cleaning data with code is the easiest way to document your process and is most reproducible for anyone looking to verify your clean data. The exact steps you take to create clean data are specific to your data and field of study, but this notebook gives a solid outline and contains some general standards.
+
+Use EDI basic clean data standards (https://environmentaldatainitiative.org/five-phases-of-data-publishing/phase-2/) 
+or tidydata standards (https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html), based on Hadley Wickham's research and subsequent paper on how to make data cleaning as effective as possible.
+
+Related data cleaning guides (also listed on the GitHub guide):
+https://cdn.rawgit.com/EDIorg/tutorials/master/data_cleaning/R_instructions_exercise.html
+https://datacarpentry.org/R-ecology-lesson/index.html
+
+
+*It’s good to have a strategy for the data cleaning process so you don’t get lost in it.* 
+The one outlined in this notebook is:
+1. Get messy data and metadata. Read through it so you know what to expect.
+2. Put messy data in the raw/ folder. Make sure messy data is in csv format.
+3. Install R packages.
+4. Read data, view structure, and devise cleaning plan.
+5. Data cleaning.
+6. Export the clean data and save the cleaning script.
+
+
+Packages
+```{r}
+update.packages()
+
+# uncomment and run these commands for any packages you haven't used before:
+# install.packages("tidyverse")
+# install.packages("dplyr")
+# install.packages("dataMaid")
+# install.packages("lubridate")
+
+# delete any of these that you don't use
+library(tidyverse)  # tidydata package
+library(dplyr)  # package for making table manipulation easy and clean
+library(dataMaid)  # additional tools for identifying problems with a data table
+library(lubridate)  # tools for easy date conversion and manipulation
+```
+
+
+Set paths to files
+```{r}
+# TODO
+
+setwd("/path/to/project/home/directory")
+
+dirty_table_path <- "raw/dirty_table.csv"  # raw data, exported from Excel as csv
+output_table_path <- "output/table.csv"  # clean data, ready for sharing/publishing
+```
+
+
+Import data
+```{r}
+dt <- read_csv(dirty_table_path)
+
+# for the documentation about this command, run
+# ?read_csv()
+
+glimpse(dt)
+```
+
+
+Basic data cleaning
+```{r}
+# TODO remove steps you don't need, duplicate steps to run them on more than one column
+
+# rename columns so that they don't contain spaces, abbreviations, or units
+# make sure to note column units somewhere, you'll need them for metadata
+names(dt) <- c("Date", "Species", "Count", "X_Coordinate", "Y_Coordinate", "Temperature")
+
+# convert dates
+dt$Date <- mdy(dt$Date)
+
+# remove whitespace
+dt$Species <- trimws(dt$Species)
+
+# check for case issues in categorical/character variables
+identifyCaseIssues(dt$Species)
+# convert case if needed
+dt$Species <- toupper(dt$Species)
+
+# check for typos in categorical/character variables
+identifyLoners(dt$Species)
+```
+
+
+
+Handle missing values
+```{r}
+# TODO remove steps you don't need, duplicate steps to run them on more than one column
+
+# identify missing value codes
+lapply(dt, identifyMissing)
+
+# identify characters in variables that should be numeric
+dt$Count[is.na(as.numeric(dt$Count))]
+
+# create flag columns as needed
+# here, we flag any missing counts and remove the strings from the Count column
+dt <- dt %>% 
+  mutate(Count_Flag = NA)
+dt$Count_Flag[dt$Count == 'missing'] <- 'M'
+dt$Count[dt$Count == 'missing'] <- NA
+
+# after flagging characters, convert numeric columns
+dt$Count <- as.numeric(dt$Count)
+
+# adjust precision of numeric columns
+dt$Count <- round(dt$Count, digits = 0)
+```
+
+
+Other modifications
+```{r}
+# (you can google how to do these things if needed)
+# remove empty rows
+# remove duplicate rows
+# remove redundant columns
+
+# if your table is in wide format, convert it to long (unless you really need to conserve storage space)
+# a great description of why/how to do this
+# https://datacarpentry.org/R-ecology-lesson/03-dplyr.html#Reshaping_with_gather_and_spread
+```
+
+
+Export 
+```{r}
+# TODO select one based on your machine
+
+# works for Mac and most data repositories, but parses incorrectly on windows
+write.csv(dt, file = output_table_path, eol = "\r", row.names = FALSE) 
+
+# Windows doesn't understand \r, so we use \r\n
+write.csv(dt, file = output_table_path, eol = "\r\n", row.names = FALSE)
+```
+
+

@@ -1,0 +1,4 @@
+Use this folder for:
+- code used for cleaning data (R notebooks are a good choice)
+- code used to general models
+- code used to compile metadata files

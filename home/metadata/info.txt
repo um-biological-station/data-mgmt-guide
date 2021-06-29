@@ -1,0 +1,8 @@
+Use this folder for:
+- metadata templates or text files 
+	- variable descriptions
+	- abstract
+	- location description
+- files required for your chosen metadata format
+- experimental methods
+- your data management plan

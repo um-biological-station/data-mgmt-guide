@@ -1,0 +1,5 @@
+Use this folder for:
+- final (clean) datasets
+- files ready for publishing/sharing
+- README for data users
+- final/compiled metadata file
